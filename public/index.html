@@ -1,22 +1,27 @@
 <html>
     <head>
         <title>Dashboard</title>
+        <link rel="stylesheet" href="styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     <body>
-        <section>
-            <header>Automation</header>
-            <nav>
-                <a href="http://home-assistant.local/">Home Assistant</a>
-                <a href="http://zoneminder.local/">ZoneMinder</a>
-                <a href="http://pihole.local/">Pihole</a>
-            </nav>
-        </section>
-        <section>
-            <h1>Media</h1>
-            <nav>
-                <a href="http://emby.local/">Emby</a>
-                <a href="http://calibre.local/">Calibre</a> (<a href="http://management.calibre.local/">management</a>)
-            </nav>
-        </section>
+        <main class="dashboard">
+            <section>
+                <header>Automation</header>
+                <nav>
+                    <a href="http://home-assistant.jonwinsley.com/"><img src="images/home-assistant.png"/> Home Assistant</a>
+                    <a href="http://zoneminder.jonwinsley.com/"><img src="images/zoneminder.png"/> ZoneMinder</a>
+                    <a href="http://pihole.jonwinsley.com/"><img src="images/pihole.png"/> Pihole</a>
+                </nav>
+            </section>
+            <section>
+                <header>Media</header>
+                <nav>
+                    <a href="http://emby.jonwinsley.com/"><img src="images/emby.png"/> Emby</a>
+                    <a href="http://calibre.jonwinsley.com/"><img src="images/calibre.png"/> Calibre</a>
+                    <a href="http://qbit.jonwinsley.com/"><img src="images/qbittorrent.png"/> qbittorrent</a>
+                </nav>
+            </section>
+        </main>
     </body>
 </html>

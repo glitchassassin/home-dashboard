@@ -1,0 +1,68 @@
+html, body {
+    background-color: #222;
+    color: #efefef;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: #efefef;
+    text-decoration: none;
+}
+a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dashboard {
+    max-width: 800px;
+    min-width: 250px;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 16px;
+
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    gap: 16px;
+}
+
+.dashboard > section {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    flex: 1 1 300px;
+    padding: 16px;
+}
+
+.dashboard > section > header {
+    font-weight: bold;
+    font-size: 2rem;
+
+    margin-bottom: 16px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dashboard > section > nav {
+    display: flex;
+    flex-direction: column;
+}
+.dashboard > section > nav > a {
+    padding: 4px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.dashboard > section > nav > a > img {
+    width: 50px;
+    height: 50px;
+}

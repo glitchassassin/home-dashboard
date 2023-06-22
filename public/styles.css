@@ -19,7 +19,7 @@ a:hover {
     max-width: 800px;
     min-width: 250px;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     box-sizing: border-box;
     margin: 0 auto;
     padding: 16px;
@@ -39,7 +39,7 @@ a:hover {
     background-color: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
 
-    flex: 1 1 300px;
+    flex: 1 1 max-content;
     padding: 16px;
 }
 
